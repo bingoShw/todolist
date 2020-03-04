@@ -8,7 +8,7 @@ class Broad extends React.Component{
             <div className='Broad-box'>
                 {
                     checkerboard.map((row,index) => {
-                        return <BroadRow key={index} />
+                        return <BroadRow key={index}/>
                     })
                 }
             </div>
