@@ -3,8 +3,9 @@ import React from 'react';
 class BroadCol extends React.Component{
     render() {
         return(
-            <div>
-                1
+            <div className='BoardCol-box'>
+                <div className="BoardCol-row"></div>
+                <div className="BoardCol-col"></div>
             </div>
         )
     }

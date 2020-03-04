@@ -25,9 +25,31 @@ code {
 }
 
 .Broad-box {
-  width: 500px;
-  height: 500px;
-  background-color: yellowgreen;
+  width: 600px;
+  height: 600px;
   margin: auto;
   display: flex;
+}
+
+.BoardCol-box{
+  position: relative;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.BoardCol-row{
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.65);
+  top: 50%;
+}
+
+.BoardCol-col{
+  position: absolute;
+  height: 100%;
+  border-right: 1px solid rgba(0, 0, 0, 0.65);
+  left: 50%;
 }
