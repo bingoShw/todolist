@@ -1,6 +1,7 @@
 import {deepCopy} from "../utils/func";
-import {ADD_LIST, CHANGE_VALUE} from "../constants/action-type";
+import {ADD_LIST, CHANGE_VALUE,INIT_LIST} from "../constants/action-type";
 
+//设置默认值
 const defaultState = {
     value: "待办",
     list: [
@@ -18,6 +19,9 @@ function reducer(state = defaultState, action) {
         case ADD_LIST:
             newState.list.push(action.value);
             newState.value = '';
+            return newState;
+        case INIT_LIST:
+            newState.list = action.value;
             return newState;
         default:
             return state
