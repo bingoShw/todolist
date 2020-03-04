@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.site-page-header {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+
+.BroadArea-box {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.Broad-box {
+  width: 500px;
+  height: 500px;
+  background-color: yellowgreen;
+  margin: auto;
+  display: flex;
+}
