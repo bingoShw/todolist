@@ -28,7 +28,9 @@ class ToDoList extends React.Component{
         /*getList(1, 10).then(res => {
             store.dispatch(initList(res.data.rows))
         })*/
-        store.dispatch(initList())
+        this.props.dispatchInitList();
+        //路由获取参数
+        console.log(this.props.match.params)
     }
 
     handleChange(e) {
@@ -38,9 +40,13 @@ class ToDoList extends React.Component{
     handleSubmit() {
         store.dispatch(addList(this.props.value));
     }
+    toJump(){
+        this.props.history.push('/game')
+    }
     render() {
         return (
             <div style={{padding:'10px'}}>
+                <button onClick={this.toJump.bind(this)}>跳转到game</button>
                 <div>
                     <Input style={{width:'250px'}}
                            placeholder="请输入待办事项"
