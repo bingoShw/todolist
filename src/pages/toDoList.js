@@ -18,11 +18,12 @@ class ToDoList extends React.Component{
         // this.state = {
         //     ...store.getState()
         // };
-        this.unsubscribe = store.subscribe(() => {
-            this.setState({
-                ...store.getState()
-            })
-        })
+        //用了react-redux之后订阅可以不用写
+        // this.unsubscribe = store.subscribe(() => {
+        //     this.setState({
+        //         ...store.getState()
+        //     })
+        // })
     }
     componentDidMount() {
         /*getList(1, 10).then(res => {

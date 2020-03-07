@@ -5,4 +5,4 @@ const defaultState = {
 function helloReducer(state = defaultState, action) {
     return state
 }
-export default helloReducer;
+export {helloReducer};
