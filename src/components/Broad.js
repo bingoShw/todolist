@@ -1,14 +1,21 @@
 import React from 'react';
 import {BroadRow} from '../components/BroadRow'
+import PropTypes from 'prop-types';
 
 class Broad extends React.Component{
+    static propTypes = {
+        onColClick:PropTypes.func
+    };
+    handleColClick(row, col){
+        this.props.onColClick(row, col);
+    }
     render() {
-        const checkerboard = new Array(15).fill(0);
+        const {checkerboard} = this.props;
         return(
             <div className='Broad-box'>
                 {
-                    checkerboard.map((row,index) => {
-                        return <BroadRow key={index} />
+                    checkerboard.map((item,index) => {
+                        return <BroadRow key={index} onColClick={this.handleColClick.bind(this)} cols={item} row={index}/>
                     })
                 }
             </div>

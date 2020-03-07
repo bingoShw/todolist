@@ -28,6 +28,9 @@ code {
   width: 600px;
   height: 600px;
   margin: auto;
+}
+
+.BoardRow-box {
   display: flex;
 }
 
@@ -43,13 +46,21 @@ code {
 .BoardCol-row{
   position: absolute;
   width: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.65);
+  border-bottom: 1px solid grey;
   top: 50%;
 }
 
 .BoardCol-col{
   position: absolute;
   height: 100%;
-  border-right: 1px solid rgba(0, 0, 0, 0.65);
+  border-right: 1px solid grey;
   left: 50%;
+}
+
+.checkerboard {
+  border: 1px solid #333;
+  height: 70%;
+  width: 70%;
+  border-radius: 50%;
+  z-index: 1;
 }
