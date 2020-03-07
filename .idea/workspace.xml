@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b63e147-46f4-439d-bf40-7a6f6cbd53af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/constants/checkerboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/func.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/success.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Broad.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Broad.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BroadArea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BroadArea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BroadCol.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BroadCol.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BroadRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BroadRow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ControlArea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ControlArea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Game.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/Game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="82" column="27" lean-forward="true" selection-start-line="73" selection-start-column="19" selection-end-line="82" selection-end-column="27" />
+            <state relative-caret-position="356">
+              <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -167,12 +156,12 @@
       <workItem from="1583456518780" duration="4344000" />
       <workItem from="1583481543679" duration="288000" />
       <workItem from="1583482192601" duration="19933000" />
-      <workItem from="1583542742625" duration="7189000" />
+      <workItem from="1583542742625" duration="8171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56290000" />
+    <option name="totallyTimeSpent" value="57272000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -185,9 +174,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2082671" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2082671" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -201,7 +189,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32897863" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32779098" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32779098" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -351,8 +339,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="82" column="27" lean-forward="true" selection-start-line="73" selection-start-column="19" selection-end-line="82" selection-end-column="27" />
+        <state relative-caret-position="356">
+          <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
