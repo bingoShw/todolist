@@ -36,7 +36,7 @@ function longitudinalSuccess(checkerboard,row,col) {
         }
     }
     //判断它的下方是否有和它相连成五个的
-    for (let i = row + 1;i <= 15;i++){
+    for (let i = row + 1;i <= 14;i++){
         if (checkerboard[i][col] === value){
             num += 1
         } else {
@@ -51,19 +51,19 @@ function leftDiagonalSuccess(checkerboard,row,col) {
     const value = checkerboard[row][col];
     let num = 1;
     //左上
-    for(let i = 1;row - i >= 0 && col - i >= 0;i++){
-        if (checkerboard[row - i][col - i] === value){
-            num += 1
-        } else {
-            break
+    for (let i = 1; col - i >= 0 && row - i >= 0; i++) {
+        if (checkerboard[row-i][col-i] === value){
+            num += 1;
+        }else{
+            break;
         }
     }
     //右下
-    for(let i = 1;row + i <= 14 && col + i <= 14;i--){
-        if (checkerboard[row + i][col + i] === value){
-            num += 1
-        } else {
-            break
+    for (let i = 1; col + i < 15 && row + i < 15; i++) {
+        if (checkerboard[row+i][col+i] === value){
+            num += 1;
+        }else{
+            break;
         }
     }
     return num >= 5;
@@ -74,19 +74,19 @@ function rightDiagonalSuccess(checkerboard,row,col) {
     const value = checkerboard[row][col];
     let num = 1;
     //右上
-    for(let i = 1;row + i <= 14 && col - i >= 0;i++){
-        if (checkerboard[row - i][col - i] === value){
-            num += 1
-        } else {
-            break
+    for (let i = 1; col + i < 15 && row - i >= 0; i++) {
+        if (checkerboard[row-i][col+i] === value){
+            num += 1;
+        }else{
+            break;
         }
     }
     //左下
-    for(let i = 1;row - i >= 0 && col + i <= 14;i--){
-        if (checkerboard[row + i][col + i] === value){
-            num += 1
-        } else {
-            break
+    for (let i = 1; col - i >= 0 && row + i < 15; i++) {
+        if (checkerboard[row+i][col-i] === value){
+            num += 1;
+        }else{
+            break;
         }
     }
     return num >= 5;

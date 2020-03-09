@@ -31,6 +31,7 @@ class Game extends React.Component{
             return
         } else {
             state.checkerboard[row][col] = state.isBlack ? BLACK_CHESS : WHITE_CHESS;
+            console.log(state.checkerboard)
             if (isSuccess(state.checkerboard,row,col)) {
                 message.info(`${state.isBlack ? '黑棋' : '白棋'}胜利啦！！！`);
                 // this.setState({
